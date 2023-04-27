@@ -34,6 +34,16 @@ export function HomeHero() {
             </div>
             {'\u007D'}
           </CodeItem>
+          <CodeItem data-aos="zoom-in" className={`${styles.codeItem}`}>
+            <span className="purple">Educacion</span> {'\u007B'}
+            <div>
+              Carrera: <span className="blue">Ingenieria de Sistemas,</span>
+            </div>
+            <div>
+              Materia: <span className="blue">Seminario de Sistemas</span>
+            </div>
+            {'\u007D'}
+          </CodeItem>
         </InfosContainer>
       </div>
     </Container>
