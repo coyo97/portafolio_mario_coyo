@@ -1,0 +1,32 @@
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  border-bottom: 1px solid #1B2138;
+  }
+  .textHeader {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .textHeader a {
+    color: #0EE7B7;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.8rem;
+  }
+  
+  .textHeader a:hover {
+    color: #f00;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+
+  
