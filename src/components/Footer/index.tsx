@@ -21,19 +21,17 @@ function Footer() {
   return (
     <Container>
       <div className="container">
-        <button type="button" onClick={handleScrollTop}>
-          Voltar ao topo
-        </button>
+        
         <section >
           <AiOutlineTwitter
             onClick={() => handleRedirect('https://twitter.com')}
-          />
+            size="4.5rem"/>
           <AiOutlineGithub
             onClick={() => handleRedirect('https://github.com')}
-          />
+            size="4.5rem"/>
           <AiFillLinkedin
             onClick={() => handleRedirect('https://linkedin.com')}
-          />
+            size="4.5rem"/>
         </section>
       </div>
     </Container>
